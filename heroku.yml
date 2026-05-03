@@ -1,0 +1,7 @@
+build:
+  docker:
+    worker: Dockerfile
+run:
+  worker:
+    command:
+      - java -jar MiniArbuzikbot-1.0-SNAPSHOT-all.jar
